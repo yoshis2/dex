@@ -32,4 +32,3 @@ let ethBox =
   <img src="assets/images/eth.png">&nbsp;ETH
 </span>
 `
-

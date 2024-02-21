@@ -128,7 +128,7 @@ img {
 #rate-box .rate.value {
   padding-right: 30px;
   float: right;
-  display: block;
+  display: none;
 }
 
 
@@ -180,4 +180,3 @@ input::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
 }
-
