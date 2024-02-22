@@ -1,6 +1,7 @@
 let buyMode = true;
 let token = undefined;
 let web3, user, dexInst, tokenInst;
+let web3Provider;
 let priceData;
 let finalInput, finalOutput;
 
@@ -35,6 +36,7 @@ $(document).on("click", ".dropdown-menu li a", function () {
 $(document).ready(async () => {
   if (window.ethereum) {
     web3 = new Web3(Web3.givenProvider);
+
   }
   priceData = await getPrice();
   console.dir(priceData);
