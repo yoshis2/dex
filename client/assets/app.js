@@ -28,7 +28,7 @@ $(document).on("click", ".dropdown-menu li a", function () {
         break;
     }
   }
-  $(".input-group .btn").html(img + text);
+  $(".input-group .btn").html(img).append(document.createTextNode(text));
   $(".input-group .btn").css("color", "#fff");
   $(".input-group .btn").css("font-size", "large");
 });
