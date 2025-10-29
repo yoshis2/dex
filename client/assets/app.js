@@ -159,7 +159,7 @@ async function checkBalance(input) {
     $(".btn.swap").html("Swap");
   } else {
     $(".btn.swap").addClass("disabled");
-    $(".btn.swap").html(`Insufficient ${buyMode ? "ETH" : token} balance`);
+    $(".btn.swap").text(`Insufficient ${buyMode ? "ETH" : token} balance`);
   }
 }
 
